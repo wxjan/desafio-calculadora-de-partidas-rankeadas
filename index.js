@@ -1,7 +1,10 @@
+
 function calcularNivel(vitorias, derrotas){
     return vitorias - derrotas
 }
 
+ var vitorias = 105
+ var derrotas = 50
  var saldoVitorias = calcularNivel(vitorias , derrotas)
  var nivel = ""
 
